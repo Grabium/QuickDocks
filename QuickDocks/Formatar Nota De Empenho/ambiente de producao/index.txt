@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+	<head>	
+		<html lang="Pt-br">
+		<meta charset="UTF-8">
+		<script type="text/javascript" src="script.js"></script>
+		<link rel="stylesheet" type="text/css" href="style.css" media="screen" />
+		<title>NE Formatter</title>
+	</head>
+	<body>	
+		<div id='externa'><div id='interna'>
+		<form>
+
+	
+		<label for='numNE'>Número da NE:</label>
+		<input id='numNE' type='text' maxlength="6" size="6"/><br/>
+
+		<label for='ano'>Ano: 20</label>
+		<input id='ano' type='number' min="10" max="24" value="21" maxlength="2" size="3"/><br/><br/>
+	
+		
+
+		<button onclick='processar()'>Formatar</button><br/><br/>
+
+		<label id='res'></label>
+
+		</form>
+		</div></div>
+		
+
+
+	</body>
+</html>
+
